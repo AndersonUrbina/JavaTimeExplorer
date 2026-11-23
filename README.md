@@ -1,10 +1,9 @@
 # Time Explorer
 
 ## Description
-This Java program work with dates and time, parsing and formatting the timestamps
-to display the time/date data as required according its desired display/use.
+This Java program works with dates and times, parsing and formatting timestamps to display them according to the desired format and use case.
 
-The program work to handle the following:
+The program works to handle the following:
 - Dates
 - Times
 - Date/Time combinations
@@ -15,7 +14,7 @@ The program work to handle the following:
 - Time zones
 - Timestamps
 
-## Features - Needs to corrected
+## Capabilities
 1. Show current date and time
 2. Format a date
 3. Parse a date from text
@@ -28,14 +27,14 @@ The program work to handle the following:
 ## Reflection
 **Which Java date/time class was easiest to understand?**
 
-`LocalDate` was the easiest class to understand, because its name suggest its behavior when working with dates.
-This class can represent a date without a time-zone in the ISO calendar system, for instance 2006-09-26.
+`LocalDate` was the easiest class to understand because its name suggest its behavior when working with dates.
+This class can represent a date without a time zone in the ISO calendar system, for instance, 2006-09-26.
 
 **Which Java date/time class was most confusing?**
 
 The `ChronoUnit` class was a bit confusing because it does not have an explicit semantic meaning.
 It provides a set of date and time units ranging from NANOS to ERAS to manipulate temporal objects.
-I used the `ChronoUnit` and it was really helpful to truncate some LocalTime and LocalDateTime timestamps to seconds
+I used the `ChronoUnit`, and it was really helpful to truncate some LocalTime and LocalDateTime timestamps to seconds
 and calculate the period (days) between a currentDate and futureDate. It can also be used to add/subtract time.
 
 **Why is it better to use date/time classes instead of storing dates and times only as strings?**
@@ -46,19 +45,19 @@ compared to a string.
 **What is the difference between Period and Duration?**
 
 Learning the difference between the `Period` and `Duration` classes was a bit confusing at the beginning,
-especially because these nouns are synonyms. `Period` uses years, months and days to represent calendar time while `Duration`
+especially because these nouns are synonyms. `Period` uses years, months, and days to represent calendar time, while `Duration`
 uses seconds and nanoseconds to represent exact physical time.
 
 **Why might time zones matter in real software?**
 
-Time zones are crucial for real world software and a fundamental part of many features we interact with.
+Time zones are crucial for real-world software and a fundamental part of many features we interact with.
 Things like setting up online meetings across different locations (customer service, business meetings), calculating the current time,
-and forecasting the weather wouldn't be possible without having time zone setting within software.
+and forecasting the weather wouldn't be possible without having time zone settings within software.
 
 ## How to Run
 1. Open the project in your preferred Java IDE.
 2. Make sure the JDK is installed and configured.
-3. Run `JavaEplorer.java`
+3. Run `JavaExplorer.java`
 
 ## Features - Screenshots
 
